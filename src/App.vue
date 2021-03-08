@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="header">Chats</div>
+    <div class="header">Chats2</div>
     <ul class="chatlist">
       <li>
         <div class="a">
