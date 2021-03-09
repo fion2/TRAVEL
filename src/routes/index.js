@@ -19,5 +19,10 @@ export default new Router({
             name: 'chat',
             component: () => import('@/views/Chat.vue'),
         },
+        {
+            path: '/search',
+            name: 'search',
+            component: () => import('@/views/Search.vue'),
+        },
     ]
 })

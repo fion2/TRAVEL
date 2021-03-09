@@ -4,8 +4,11 @@
       <div><router-link to="/login">login</router-link></div> 
       <div><router-link to="/signup">signup</router-link></div>
       <div><router-link to="/chat">chat</router-link></div>
+      <div><router-link to="/search">search</router-link></div>
     </div>
-    <router-view></router-view>
+    <div class="container">
+      <router-view></router-view>
+    </div>
     <div class="footer">
       footer
     </div>
@@ -18,9 +21,8 @@
   background: red;
 }
 
+
 .footer {
-  position: absolute;
-  bottom: 0;
   background: yellow;
   width: 100%;
 }
